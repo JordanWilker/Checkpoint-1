@@ -1,0 +1,27 @@
+.border-o{
+    border:3px solid orangered
+}
+.bgi-1{
+    background-image: url(https://picsum.photos/id/1019/1700/500);
+    height:auto;
+    width: auto;
+}
+.border-l{
+    border-left: 5px solid aquamarine;
+}
+
+.move-down{
+    transform: translate(30%,20%);
+}
+@media (min-width: 991px) { 
+    .absolute{
+        position: absolute;
+        transform: translate(25%,15%)
+    }
+ }
+ .shadow{
+     box-shadow: 2px 2px;
+ }
+ .fancy-text{
+    font-family: 'Dancing Script', cursive;
+ }
