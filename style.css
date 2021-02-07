@@ -14,10 +14,16 @@
     transform: translate(30%,20%);
 }
 @media (min-width: 991px) { 
-    .absolute{
+    .absolute-one{
         position: absolute;
         transform: translate(25%,15%)
     }
+ }
+ @media(min-width: 768px){
+     .absolute{
+         position: absolute;
+         transform: translate(25%,15%);
+     }
  }
  .shadow{
      box-shadow: 2px 2px;
